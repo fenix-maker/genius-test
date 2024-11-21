@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Сучасна пекарня</title>
   </head>
   <body>
@@ -15,27 +16,27 @@
         </a>
         <!-- меню -->
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="link" href="#">Наші традиції</a></li>
+          <li><a class="link" href="#">Шеф-кухарі</a></li>
+          <li><a class="link" href="#">Формати</a></li>
+          <li><a class="link" href="#">Контакти</a></li>
         </ul>
       </nav>
       <!-- button (за замовчуванням без type - type="submit") -->
-      <button type="button">Замовити дзвінок</button>
+      <button class="button" type="button">Замовити дзвінок</button>
     </header>
     <main>
       <!-- секція завжди має заголовок -->
       <section>
-        <h1>Сучасна пекарня</h1>
+        <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
       </section>
       <section>
-        <ul>
+        <ul class="advantages-list">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
         </ul>
-        <h2>Новий формат традицій</h2>
+        <h2 class="section-title">Новий формат традицій</h2>
         <p>
           <span>shop bakery</span> - це пекарня, яка взяла все найкраще, і
           зберегла смак традиційної випічки та натуральних інгредієнтів.
@@ -51,7 +52,9 @@
         />
       </section>
       <section>
-        <h2>Наші найкращі шеф-кухарі</h2>
+        <h2 class="section-title">
+          Наші найкращі <span class="accent">шеф-кухарі</span>
+        </h2>
         <!-- article призначена для незалежного розповсюдження чи повторного використання. Наприклад, стаття, запис у блозі -->
         <ul>
           <li>
@@ -76,7 +79,7 @@
         </ul>
       </section>
       <section>
-        <h2>Формати</h2>
+        <h2 class="section-title">Формати</h2>
         <ul>
           <li>
             <article>
@@ -96,7 +99,7 @@
         </ul>
       </section>
       <section>
-        <h2>Приєднуйся до мережі пекарень</h2>
+        <h2 class="section-title">Приєднуйся до мережі пекарень</h2>
       </section>
     </main>
     <footer>
